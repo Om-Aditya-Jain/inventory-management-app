@@ -1,0 +1,5 @@
+inventory-client/android linguist-vendored
+inventory-client/web linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored

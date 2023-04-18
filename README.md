@@ -30,4 +30,4 @@ See '[Project Description](./project_description.pdf)' for more details.
 ## Repository contents
 - [Frontend](./inventory-client/README.md)
 - [Backend](./inventory-backend/README.md) 
-- [DB script](./db/)
+- [DB script](./db-scripts/)
