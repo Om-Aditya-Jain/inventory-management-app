@@ -1,16 +1,41 @@
 # polito-comm-systems-project
 
-- [`DB`](./DB/) contains the `.sql` script to create the database and tables of the project (`plcs_db`).
+## About
 
-- [`inventory-backend`](./inventory-backend/) contains the web service. Depending on your case, inside this directory you can execute one of the following scripts to launch the server:
-    - [launch_server.sh](https://github.com/linomp/polito-comm-systems-project/blob/main/inventory-backend/launch_server.sh) - if you have a virtual environment (venv). It connects to our remote DB running on DigitalOcean.
-    - [launch_server_no_venv.sh](https://github.com/linomp/polito-comm-systems-project/blob/main/inventory-backend/launch_server_no_venv.sh) - if you are using anaconda and not venv. It connects to our remote DB running on DigitalOcean.
-    - [launch_server_local.sh](https://github.com/linomp/polito-comm-systems-project/blob/main/inventory-backend/launch_server_local.sh) - if you have a virtual environment (venv) and local MySQL installation with the `plcs_db` already in place.
-    - [launch_server_no_venv_local.sh](https://github.com/linomp/polito-comm-systems-project/blob/main/inventory-backend/launch_server_no_venv_local.sh) - if you are using anaconda and not venv. Requires a local MySQL installation with the `plcs_db` already in place.
+This is a generic inventory management app built for the "Projects & Laboratory on Communication Systems" course @ Politecnico di Torino, Spring 2022. 
 
-    If you are taking part in the web service development, to run the tests you can execute one of these:
-    - [test_no_venv.sh](https://github.com/linomp/polito-comm-systems-project/blob/main/inventory-backend/launch_server_no_venv.sh) - if you are using anaconda and not venv. It connects to our remote DB running on DigitalOcean.
-    - [test_no_venv_local.sh](https://github.com/linomp/polito-comm-systems-project/blob/main/inventory-backend/launch_server_no_venv_local.sh) - if you are using anaconda and not venv. Requires a local MySQL installation with the `plcs_db` already in place.
+See '[Project Description](./project_description.pdf)' for more details.
 
-## Overall architecture of the app
-<img src="./architecture.png" width="80%">
+### Features
+- Extensible Item schema
+- Username/Password login
+- RFID card login
+- Identification of warehouse items with RFID tags
+- Web, Mobile & 'Totem' client (Raspberry pi + Touchscreen on kiosk mode)
+- Admin GUI
+- Multi-tenant
+
+### Stack
+- **Frontend**: Flutter (Web & Mobile targets)
+- **Backend**: MySQL, FastAPI, Mosquitto MQTT Broker
+- **Deployment**: Digital Ocean, Docker
+- **Hardware**: Raspberry Pi, LCD Touchscreen, RFID tags + reader
+
+    <img src="./architecture.png" width="60%">
+
+
+## Repository contents
+- [`Frontend`](./inventory-client/README.md)
+- [`Backend`](./inventory-backend/README.md) 
+- [`DB script`](./db/)
+
+
+## Credits
+
+This project was created by:
+
+- [Daniel Smith](https://github.com/dansmith5764)
+- [Catarina Mouro](https://github.com/CatarinaMouro)
+- [Lino Mediavilla](https://github.com/linomp)
+
+For the "Projects & Laboratory on Communication Systems" course @ Politecnico di Torino, Spring 2022. 

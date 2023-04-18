@@ -1,16 +1,6 @@
-## Web Service
+[`<-- Go back`](./README.md)
 
-- Professor suggested Python.
-
-- From researching a bit the existing frameworks, FastAPI is modern, popular and seems really promising & simple to learn. 
-
-- The best feature IMO is automatic documentation & interactive testing interface generation, that will be so useful when developing the clients.
-
-- You can get up to speed with APIs, automatic documentation and the modern FastAPI framework for developing web services in Python with this 1h video: [Python FastAPI tutorial by TechWithTim](https://www.youtube.com/watch?v=-ykeT6kk4bk)
-
-- I've created a skeleton fastAPI project already, you can already run it, but it's just what gets created by default with PyCharm IDE: a "hello world" endpoint.
-
-### Instructions to run the web service (on PyCharm):
+## Instructions to run the web service (on PyCharm):
 _Good news is this stuff needs to be done only once..._
 
 1. Clone the repo
@@ -29,7 +19,7 @@ _Good news is this stuff needs to be done only once..._
 
     Note: these steps are 100% tested 
 
-### Instructions to run the web service (raw Anaconda interpreter):
+## Instructions to run the web service (raw Anaconda interpreter):
 1. Clone the repo
 2. Open anaconda prompt and navigate to the folder 'inventory-backend'
 3. Type this (to automatically install any missing packages that our project requires - [source](https://stackoverflow.com/a/64538393/8522453)): 
