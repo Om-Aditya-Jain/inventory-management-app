@@ -4,6 +4,9 @@
 
 This is a generic inventory management app built for the "Projects & Laboratory on Communication Systems" course @ Politecnico di Torino, Spring 2022. 
 
+Created by: [Daniel Smith](https://github.com/dansmith5764), [Catarina Mouro](https://github.com/CatarinaMouro) & [Lino Mediavilla](https://github.com/linomp).
+
+
 See '[Project Description](./project_description.pdf)' for more details.
 
 ### Features
@@ -25,17 +28,6 @@ See '[Project Description](./project_description.pdf)' for more details.
 
 
 ## Repository contents
-- [`Frontend`](./inventory-client/README.md)
-- [`Backend`](./inventory-backend/README.md) 
-- [`DB script`](./db/)
-
-
-## Credits
-
-This project was created by:
-
-- [Daniel Smith](https://github.com/dansmith5764)
-- [Catarina Mouro](https://github.com/CatarinaMouro)
-- [Lino Mediavilla](https://github.com/linomp)
-
-For the "Projects & Laboratory on Communication Systems" course @ Politecnico di Torino, Spring 2022. 
+- [Frontend](./inventory-client/README.md)
+- [Backend](./inventory-backend/README.md) 
+- [DB script](./db/)
