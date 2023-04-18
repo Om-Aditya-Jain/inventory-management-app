@@ -7,8 +7,8 @@ Created by: [Daniel Smith](https://github.com/dansmith5764), [Catarina Mouro](ht
 See '[Project Description](./project_description.pdf)' for more details.
 
 ## Repository contents
-- [Frontend](./inventory-client/README.md)
-- [Backend](./inventory-backend/README.md) 
+- [Frontend](./inventory-client/)
+- [Backend](./inventory-backend/) 
 - [DB script](./db-scripts/)
 
 
