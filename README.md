@@ -1,19 +1,19 @@
-# polito-comm-systems-project
+# Inventory management app
 
-This is a generic inventory management app built for the "Projects & Laboratory on Communication Systems" course @ Politecnico di Torino, Spring 2022. 
+This is a full-stack, generic inventory management app built for the "Projects & Laboratory on Communication Systems" course @ Politecnico di Torino, Spring 2022. 
 
 Created by: [Daniel Smith](https://github.com/dansmith5764), [Catarina Mouro](https://github.com/CatarinaMouro) & [Lino Mediavilla](https://github.com/linomp).
 
 See '[Project Description](./project_description.pdf)' for more details.
 
 ## Repository contents
-- [Frontend](./inventory-client/)
+- [Frontend](./inventory-client/) (includes RPi scripts)
 - [Backend](./inventory-backend/) 
 - [DB script](./db-scripts/)
 
 
 ## Features
-- Extensible Item schema
+- Extensible db schemas for items
 - Username/Password login
 - RFID card login
 - Identification of warehouse items with RFID tags
