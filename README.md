@@ -2,7 +2,7 @@
 
 This is a full-stack, generic inventory management app built for the "Projects & Laboratory on Communication Systems" course @ Politecnico di Torino, Spring 2022. 
 
-Created by: [Daniel Smith](https://github.com/dansmith5764), [Catarina Mouro](https://github.com/CatarinaMouro) & [Lino Mediavilla](https://github.com/linomp).
+Created by: [Dan Smith](https://github.com/dansmith5764), [Catarina Mouro](https://github.com/CatarinaMouro) & [Lino Mediavilla](https://github.com/linomp).
 
 See '[Project Description](./project_description.pdf)' for more details.
 
