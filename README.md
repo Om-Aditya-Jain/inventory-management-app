@@ -21,7 +21,7 @@ See '[Project Description](./project_description.pdf)' for more details.
 - Admin GUI
 - Multi-tenant
 
-## Stack
+## Tech Stack
 - **Frontend**: Flutter (Web & Mobile targets)
 - **Backend**: MySQL, FastAPI, Mosquitto MQTT Broker
 - **Auth**: JWT
